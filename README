@@ -12,8 +12,8 @@ Run 3: Oval Fouses; Fast
 python ./fouse.py -s $SUB_NUM -c 1 -a 2 -d ../stims_run2norm_oval/
 
 Run 4: Square Fouses; Fast
-python ./fouse_slow.py -s $SUB_NUM -c 0 -a 1 -d ../stims_run2norm/
+python ./fouse_slow.py -s $SUB_NUM -c 2 -a 3 -d ../stims_run2norm/
 
 Run 5: Oval Fouses; Fast
-python ./fouse_slow.py -s $SUB_NUM -c 1 -a 2 -d ../stims_run2norm_oval/
+python ./fouse_slow.py -s $SUB_NUM -c 3 -a 4 -d ../stims_run2norm_oval/
 
