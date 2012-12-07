@@ -1,0 +1,19 @@
+All runs are currently 3m54s (234s or 117tr)
+
+How to run:
+
+Run 1: Kanwisher localizer
+python ./fsbos.py -s $SUB_NUM -c 0 -a 0 -d ../stims_run1/
+
+Run 2: Square Fouses; Fast
+python ./fouse.py -s $SUB_NUM -c 0 -a 1 -d ../stims_run2norm/
+
+Run 3: Oval Fouses; Fast
+python ./fouse.py -s $SUB_NUM -c 1 -a 2 -d ../stims_run2norm_oval/
+
+Run 4: Square Fouses; Fast
+python ./fouse_slow.py -s $SUB_NUM -c 0 -a 1 -d ../stims_run2norm/
+
+Run 5: Oval Fouses; Fast
+python ./fouse_slow.py -s $SUB_NUM -c 1 -a 2 -d ../stims_run2norm_oval/
+
